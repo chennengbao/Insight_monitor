@@ -3,7 +3,8 @@ WEB前端无埋点监测/统计JavaScript SDK，参加黑客马拉松比赛作�
 ## author ##
 [梦幻雪冰](https://github.com/chennengbao)
 
-## 说明文档
+## description document
+#### 配置说明
 
 1. siteId：站点id，用于区分站点
 2. jsSrc：监测脚本地址
@@ -31,6 +32,8 @@ WEB前端无埋点监测/统计JavaScript SDK，参加黑客马拉松比赛作�
 第一种：/html/body/\*/textarea（父级或者祖父级无id的情况）
 
 第二种：//\*[@id="id名"]/\*/div[1]/input[1]（父级或者祖父级有id的情况）
+
+#### 监测引用示例
 
 ```javascript
 <script>
